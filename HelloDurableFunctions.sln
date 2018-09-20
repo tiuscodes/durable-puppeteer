@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDurableFunctions", "HelloDurableFunctions\HelloDurableFunctions.csproj", "{4BBF36C6-4F80-4571-82B4-915EC2F48330}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloDurableFunctions", "HelloDurableFunctions\HelloDurableFunctions.csproj", "{4BBF36C6-4F80-4571-82B4-915EC2F48330}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurablePuppeteer", "DurablePuppeteer\DurablePuppeteer.csproj", "{1BDD30B1-98F6-4881-A146-BA9A53C8372B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuppeteerSharp", "..\puppeteer-sharp-master\lib\PuppeteerSharp\PuppeteerSharp.csproj", "{EDF98FF1-2584-44EC-8610-260F2E9DEF1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurablePuppeteerV2", "DurablePuppeteerV2\DurablePuppeteerV2.csproj", "{40EA4973-8101-4618-BF76-71921491CF2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJobs.Extensions.DurableTask", "..\azure-functions-durable-extension-master\src\WebJobs.Extensions.DurableTask\WebJobs.Extensions.DurableTask.csproj", "{A7F5E4A3-94D6-4CF4-A7F4-04A65102740E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{4BBF36C6-4F80-4571-82B4-915EC2F48330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BBF36C6-4F80-4571-82B4-915EC2F48330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BBF36C6-4F80-4571-82B4-915EC2F48330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDD30B1-98F6-4881-A146-BA9A53C8372B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDD30B1-98F6-4881-A146-BA9A53C8372B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDD30B1-98F6-4881-A146-BA9A53C8372B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDD30B1-98F6-4881-A146-BA9A53C8372B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF98FF1-2584-44EC-8610-260F2E9DEF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF98FF1-2584-44EC-8610-260F2E9DEF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF98FF1-2584-44EC-8610-260F2E9DEF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF98FF1-2584-44EC-8610-260F2E9DEF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EA4973-8101-4618-BF76-71921491CF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EA4973-8101-4618-BF76-71921491CF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EA4973-8101-4618-BF76-71921491CF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EA4973-8101-4618-BF76-71921491CF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F5E4A3-94D6-4CF4-A7F4-04A65102740E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F5E4A3-94D6-4CF4-A7F4-04A65102740E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F5E4A3-94D6-4CF4-A7F4-04A65102740E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F5E4A3-94D6-4CF4-A7F4-04A65102740E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
